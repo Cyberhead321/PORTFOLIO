@@ -1,0 +1,95 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #282c34;
+    color: #fff;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3rem;
+} 
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.studies{
+    text-decoration: underline;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0077b5;
+}
+
+.nav-links a:hover {
+    color: #005582;
+}
+
+section {
+    padding: 1.5rem 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #282c34;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #282c34;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
